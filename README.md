@@ -1,1 +1,1 @@
-https://furnalis.github.io/goit-markup-hw-06/
+https://furnalis.github.io/goit-markup-hw-07/
