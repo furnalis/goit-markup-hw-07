@@ -1,0 +1,18 @@
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  color: $secondblack;
+  padding-bottom: 50px;
+
+  &__customers {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    color: $secondblack;
+    padding-bottom: 50px;
+    padding-top: 94px;
+  }
+}
