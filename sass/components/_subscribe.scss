@@ -1,4 +1,7 @@
 .subscribe {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   &__btn {
     gap: 24px;
     fill: $firstcolor;
