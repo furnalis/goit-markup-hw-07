@@ -1,33 +1,7 @@
 @use './utils/vars' as *;
 @use './utils/mixin' as *;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-img {
-  display: block;
-}
-a {
-  text-decoration: none;
-}
-ul {
-  list-style-type: none;
-}
-button {
-  cursor: pointer;
-}
-
-body {
-  font-family: $fontprimary;
-  color: $secondblack;
-  letter-spacing: 0.03em;
-}
-header {
-  border-bottom: 1px solid $colorheaderline;
-}
-
+@import './components/reset';
 @import './components/header';
 @import './components/container';
 @import './components/section';
@@ -36,7 +10,6 @@ header {
 @import './components/lorem';
 @import './components/ourjob';
 @import './components/squad';
-@import './components/title';
 @import './components/list';
 @import './components/customers';
 @import './components/footer';
